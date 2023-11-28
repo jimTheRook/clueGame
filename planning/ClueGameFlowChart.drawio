@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2023-11-28T19:24:23.037Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="YL63PW7OxhYDj8LuXnmu" version="22.1.4" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2501" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-1" target="o0RGykIGHqEXrYj7ZufE-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-1" value="User clicks on Start Game" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-160" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-8" target="o0RGykIGHqEXrYj7ZufE-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-8" value="Render Number of Players Form as modal" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="140" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-10" target="o0RGykIGHqEXrYj7ZufE-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-10" target="o0RGykIGHqEXrYj7ZufE-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-10" value="User submits Players Form" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="330" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-12" target="o0RGykIGHqEXrYj7ZufE-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-12" value="Render select your cards form in modal" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-14" value="Store player data" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;shape=mxgraph.flowchart.database;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="490" y="70" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-16" target="o0RGykIGHqEXrYj7ZufE-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-16" target="o0RGykIGHqEXrYj7ZufE-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-16" value="User submits cards form" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="670" y="150" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-18" target="o0RGykIGHqEXrYj7ZufE-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-18" target="o0RGykIGHqEXrYj7ZufE-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-18" value="Show Score Card with next player displayed and data updated" style="strokeWidth=2;html=1;shape=label;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="840" y="180" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-20" value="store players cards" style="whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;shape=mxgraph.flowchart.database;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="840" y="100" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-29" target="o0RGykIGHqEXrYj7ZufE-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-29" value="Open Setup Page" style="strokeWidth=2;html=1;shape=label;whiteSpace=wrap;fillColor=#cdeb8b;strokeColor=#36393d;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-20" y="110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-32" target="o0RGykIGHqEXrYj7ZufE-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-32" value="User Clicks &quot;Makes Accusation&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="760" y="375" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-36" value="User Clicks Next Turn (current player moved only)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="940" y="375" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-39" target="o0RGykIGHqEXrYj7ZufE-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-39" value="Render Accusation Form" style="whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="550" y="375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-36" target="o0RGykIGHqEXrYj7ZufE-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1060" y="210" as="sourcePoint" />
+            <mxPoint x="1110" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="410" />
+              <mxPoint x="1080" y="225" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-44" target="o0RGykIGHqEXrYj7ZufE-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-44" value="User Submits Accusation Form" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#ffcc99;strokeColor=#36393d;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="374" y="375" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-46" value="&lt;br&gt;&lt;br&gt;Data from Accusation form stored and logic updated" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;strokeWidth=2;shape=mxgraph.flowchart.database;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="360" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="o0RGykIGHqEXrYj7ZufE-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o0RGykIGHqEXrYj7ZufE-46" target="o0RGykIGHqEXrYj7ZufE-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="424" y="310" />
+              <mxPoint x="870" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
