@@ -1,0 +1,138 @@
+.vertical-center {
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .player-header {
+    writing-mode: vertical-rl;
+    text-align: right;
+    vertical-align: middle;
+  }
+  
+  .table-wrapper {
+    border: 3px solid grey;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  #score-card-table {
+    margin: 0;
+  }
+  
+  #title {
+    background-color: goldenrod;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  #score-card-table tr {
+    line-height: 10px;
+    min-height: 10px;
+    height: 10px;
+  }
+  
+  #score-card-table td {
+    position: relative;
+    font-weight: lighter;
+    vertical-align: middle;
+  }
+  
+  #score-card-table th {
+    position: relative;
+    vertical-align: middle;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .eliminated {
+    /* text-decoration: line-through; */
+    font-weight: lighter;
+    font-size: 75%;
+  }
+  
+  .doesNotHave {
+    background: "";
+    border: "";
+    /* font-weight: bold; */
+  }
+  
+  .prob-bar {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 100%;
+    background-color: red;
+    opacity: 50%;
+  }
+  
+  #button-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #card-table {
+    margin-bottom: 0;
+  }
+  
+  #card-modal-body {
+    padding-bottom: 0;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  .turn-btn {
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: #daa520;
+    border-radius: 11px;
+    margin-bottom: 5px;
+    height: 30px;
+    padding-top: 8px;
+  }
+  
+  .turn-btn:hover {
+    opacity: 90%;
+    box-shadow: 1px 2px 5px 2px darkgrey;
+  }
+  
+  .next-btn:active {
+    translate: 3px;
+  }
+  
+  .prev-btn:active {
+    translate: -3px;
+  }
+  
+  #current-player {
+    font-size: 2rem;
+    margin: 0;
+    height: 30px;
+    padding-top: 8px;
+  }
+  
+  td {
+    padding: 0 !important;
+  }
+  
+  .td-accused {
+    width: 25px;
+  }
+  
+  .form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 2em;
+    margin-bottom: 0.125rem;
+    border-left: groove;
+  }
+  

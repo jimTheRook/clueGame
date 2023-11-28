@@ -1,0 +1,17 @@
+#button-div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #card-table {
+    margin-bottom: 0;
+  }
+  
+  #card-modal-body {
+    padding-bottom: 0;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
