@@ -3,6 +3,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import Player from "./public/classes.js";
+import serverless from "serverless-http";
 
 const app = express();
 const port = 3000;
