@@ -1,5 +1,4 @@
-# clueGame
-Smart Scoring Card for Clue Game.
+# Clue Game Smart Scoring Card
 
 This is a simply toy project I created on my own. It is designed to showcase javascript, css, html, nodejs, and express skills. 
 You can now play the game of Clue and use the smart UI to track your queries as well as your opponents' queries. 
